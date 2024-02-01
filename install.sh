@@ -129,10 +129,6 @@ export OPTIONS=("Install template via TxAdmin" "Use the cfx-server-data")
 bashSelect
 deployType=$( echo $? )
 
-runCommand "yum -y update" "updating"
-
-runCommand "yum -y upgrade " "upgrading"
-
 runCommand "yum install -y wget git curl dos2unix net-tools sed screen tmux xz-utils lsof" "installing necessary packages"
 
 clear
