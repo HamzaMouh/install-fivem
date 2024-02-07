@@ -1,6 +1,6 @@
 # TxAdmin install script
 
-Simple bash script to install [TxAdmin]() ( and [MariaDB]() + [PHPMyAdmin]()) on Debian based systems.
+Simple bash script to install [TxAdmin]() ( and [MariaDB]() + [PHPMyAdmin]()) on Centos 7 based systems.
 
 ## Installation
 
